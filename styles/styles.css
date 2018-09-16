@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "Raleway Black";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Black Italic";
+    src: url(../fonts/Raleway-Black-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold Italic";
+    src: url(../fonts/Raleway-Bold-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Extra Bold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black Italic";
+    src: url(../fonts/Roboto-Black-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    margin: 0px;
+    background-color: #f8f8f8;
+}
+
+.header {
+    height: 700px;
+    background-color: #abeafa;
+}
+
+.header_content{
+    height: inherit;
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.headerLogo{
+    display: block;
+    position: absolute;
+    top: 24px;
+    left: 69px;
+}
+
+.welcomeBanner{
+    position: absolute;
+    left: 0;
+    bottom: 64px;
+    width: 245px;
+    background-color: #fff51f;
+    height: 300px;
+    padding-left: 25px;
+}
+
+.welcomeBannerTop{
+    font-family: "Raleway Bold", sans-serif;
+    color: #333333;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-top: 79px;
+    margin-bottom: 21px;
+    width: 201px;
+}
+
+.welcomeBannerBottom{
+    font-family: "Raleway Bold Italic", sans-serif;
+    font-size: 18px;
+    line-height: 14px;
+    color: #333;
+    width: 218px;
+}
+
+.main {
+    margin-top: -20px;
+    min-height: 900px; /* в конце удалить*/
+    overflow: hidden; /*растягивет элементом с флоатом */
+}
+
+.main_content{
+    margin: 0 auto;
+    height: inherit;
+    width: 1170px;
+    margin: 0 auto;
+    min-height: 900px; /* в конце удалить*/
+    overflow: hidden;
+}
+
+.left_content{
+    float: left;
+    width: 270px;
+}
+
+.left_content_top{
+    width: inherit;
+    background-color: #26d2fc;
+    margin-bottom: 30px;
+}
+
+.menu{
+    width: inherit;
+    height: 66px;
+    background-color: #333333;
+    position: relative;
+}
+
+.menu div{
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 29px;
+    left: 42px;
+}
+
+.left_content_top a{
+    display: block;
+    height: 37px;
+    line-height: 43px;
+    text-transform: uppercase;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    padding: 0 40px;
+    text-transform: uppercase;
+}
+
+.left_content_top a:hover{
+    background-color: #333333;
+}
+
+.left_content_bottom{
+    width: inherit;
+    height: 300px;
+    background-color: #e0e0e0;
+    position: relative;
+}
+
+.left_content_bottom div{
+    font-family: "Raleway Black Italic", sans-serif;
+    position: absolute;
+    right: 19px;
+    bottom: 73px;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 1;
+}
+
+
+.right_content{
+    float: right;
+    width: 870px;
+    background-color: #f8f8f8;
+}
+
+.products{
+    width: inherit;
+}
+
+.productGroup,
+.productNew{
+    width: 845px;
+    height: 49px;
+    padding-left: 25px;
+    padding-top: 29px;
+    font-family: "Roboto Black Italic", sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #707070;
+    letter-spacing: -0.75px;
+}
+
+.productGroup{
+    color: #717171;
+    margin-top: 46px;
+}
+
+.productList{
+    width: inherit;
+    overflow: hidden;
+}
+
+.productList div{
+    width: 270px;
+    height: 320px;
+    background-color: #070524;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.productList div:nth-child(3n+3) {
+    margin-right: 0px;
+}
+
+.productList div:nth-child(-n+3) {
+    margin-top: 0px;
+}
+
+.main_bottom{
+    /* clear: both; */
+    width: 1170px;
+    height: 160px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.main_bottom img{
+    display: block;
+}
+
+.instagBox{
+    width: 1170px;
+    height: 165px;
+    background-color: #eaeaea;
+    margin: 0 auto;
+}
