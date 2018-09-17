@@ -247,7 +247,128 @@ body{
 
 .instagBox{
     width: 1170px;
-    height: 165px;
+    height: 350px;
     background-color: #eaeaea;
     margin: 0 auto;
+    position: relative;
+}
+
+.instatext{
+    position: absolute;
+    top: 54px;
+    left: 449px;
+    font-family: "Roboto Black Italic", sans-serif;
+    color: #333333;
+    font-size: 22px;
+    letter-spacing: 0.75px;
+}
+
+.instatext a{
+    font-size: 18px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.instaImg{
+    width: inherit;
+    position: absolute;
+    top: 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instaImg img{
+    display: block;
+}
+
+.socialBox{
+    height: 150px;
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.socialBox a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+    height: inherit;
+    text-decoration: none;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.socialBox a:nth-child(1) {
+    background-color: #3b5997;
+}
+
+.socialBox a:nth-child(2) {
+    background-color: #3fccfd;
+}
+
+.socialBox a:nth-child(3) {
+    background-color: #cb2027;
+}
+
+footer{
+    overflow: hidden;
+}
+
+.footerTop{
+    background-color: #373737;
+    height: 300px;
+    color: white;
+}
+
+.footerTop > div{
+    margin: 0 auto;
+    height: inherit;
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 77px;
+    box-sizing: border-box;
+}
+
+.footerTop a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footerColumnCategory{
+    width: 84px;
+}
+
+.footerColumnAccount{
+    width: 113px;
+}
+
+.footerColumnSupport{
+    width: 108px;
+}
+
+.footerColumnNewsletter{
+    width: 267px;
+}
+
+.footerColumnAbout{
+    width: 232px;
+}
+
+.contentHead{
+    font-family: "Raleway Extra Bold", sans-serif;
+    margin-bottom: 28px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.columnContent{
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+}
+
+.footerBottom{
+    height: 50px;
+    background-color: #333333;
 }
